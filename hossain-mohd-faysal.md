@@ -7,7 +7,7 @@ image:
   feature: Hossain-Mohd-Faysal.jpg
 ---
 
-  <img src="{{ site.url }}/images/hossain-faysal.jpg" alt="Hossain Mohammad Faysal">
+  <img src="{{ site.url }}/images/jianping_self_intr.jpg" alt="Jianping Ye@Computer Science">
 
 
 My name is **Hossain Mohd. Faysal**, and this is my personal blog.  
