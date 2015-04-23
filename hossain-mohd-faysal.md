@@ -1,8 +1,8 @@
 ---
 layout: page
 permalink: /hossain-mohd-faysal/index.html
-title: HOSSAIN MOHAMMAD FAYSAL
-tags: [Hossain, Mohd, Faysal, hmfaysal]
+title: JIANPING YE
+tags: [JIANPING, YE]
 image:
   feature: Hossain-Mohd-Faysal.jpg
 ---
@@ -10,7 +10,7 @@ image:
   <img src="{{ site.url }}/images/jianping_self_intr.jpg" alt="Jianping Ye@Computer Science">
 
 
-My name is **Hossain Mohd. Faysal**, and this is my personal blog.  
+My name is **Jianping Ye**, and this is my personal blog.  
 
 I am an PhD candidate in *Electrical Engineering* at the [School of Engineering and Applied Science](http://www.seas.upenn.edu/) at **University of Pennsylvania**. I am licensed as a Professional Engineer (P.E) to practice in the states of Texas, Massachusetts and California. I double majored in EECS and Mathematics during my undergraduate life at [Massachusetts Institute of Technology](http://www.mit.edu/), and currently focusing on Electrical Engineering for my post-graduate studies.
 
