@@ -1,13 +1,13 @@
 ---
 layout: post
 published: true
-title: Jekyll + Prose.io
+title: Code Sample
 mathjax: false
 featured: true
 comments: true
 headline: Making blogging easier for masses
 categories: 
   - webdevelopment
-tags: jekyll
+tags: ACM/ICPC
 ---
 
