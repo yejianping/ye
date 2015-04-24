@@ -71,8 +71,8 @@ kramdown:
 
 prose:
   rooturl: '_posts'
-  siteurl: 'http://yejianping.github.io/'
-  relativeLinks: 'http://yejianping.github.io/links.jsonp'
+  siteurl: 'http://yejianping.github.io/ye/'
+  relativeLinks: 'http://yejianping.github.io/ye/links.jsonp'
   media: 'images'
   metadata:
     _posts:
