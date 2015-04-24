@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /hossain-mohd-faysal/index.html
+permalink: /self-introduction/index.html
 title: JIANPING YE
 tags: [JIANPING, YE]
 image:
