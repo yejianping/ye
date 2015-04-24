@@ -26,12 +26,12 @@ This website is static. It leverages an open source project on GitHub: [Notepad]
 
 I spent almost a whole day figuring out all the details and specifics and finally made it. During the process, these two links helped me a lot:
 
-1.[http://allandenot.com/development/2015/01/11/blogging-like-a-dev-jekyll-github-prose-io.html](http://allandenot.com/development/2015/01/11/blogging-like-a-dev-jekyll-github-prose-io.html)
-1.[http://hmfaysal.github.io/Notepad/theme/documentation/](http://hmfaysal.github.io/Notepad/theme/documentation/)
+1. [http://allandenot.com/development/2015/01/11/blogging-like-a-dev-jekyll-github-prose-io.html](http://allandenot.com/development/2015/01/11/blogging-like-a-dev-jekyll-github-prose-io.html)
+1. [http://hmfaysal.github.io/Notepad/theme/documentation/](http://hmfaysal.github.io/Notepad/theme/documentation/)
 
 Simply summarising:
 
-1. Clone [Notepad](https://github.com/hmfaysal/Notepad) to your own repo.
+1. Clone [Notepad](https://github.com/hmfaysal/Notepad) to your own repo. Then **Switch to gh-pages branch!**
 1. Open _config.yml. Add url: "http://user_name.github.io/project_name"
 1. Type http://user_name.github.io/project_name in your brower. OK.
 
