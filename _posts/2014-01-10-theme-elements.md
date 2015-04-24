@@ -131,9 +131,10 @@ Sometimes a link isn't enough, you want to quote someone on what they've said. I
 Got a streak of geek? We've got you covered there, too. You can write inline `<code>` blocks really easily with back ticks. Want to show off something more comprehensive? 4 spaces of indentation gets you there.
 
 {% highlight css %}
-.awesome-thing {
-    display: block;
-    width: 100%;
+#include <set>
+#include <map>
+#include <list>
+#include <cmath>
 }
 {% endhighlight %}
 
