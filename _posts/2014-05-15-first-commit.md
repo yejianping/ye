@@ -25,5 +25,6 @@ I was attracted by the layout, the fonts and the colors immediately before I dec
 This website is static. It leverages an open source project on GitHub: [Notepad](https://github.com/hmfaysal/Notepad).
 
 I spent almost a whole day figuring out all the details and specifics and finally made it. During the process, these two links helped me a lot:
-[^1][http://allandenot.com/development/2015/01/11/blogging-like-a-dev-jekyll-github-prose-io.html](http://allandenot.com/development/2015/01/11/blogging-like-a-dev-jekyll-github-prose-io.html)
-[^2][http://hmfaysal.github.io/Notepad/theme/documentation/](http://hmfaysal.github.io/Notepad/theme/documentation/)
+
+[^1]:[http://allandenot.com/development/2015/01/11/blogging-like-a-dev-jekyll-github-prose-io.html](http://allandenot.com/development/2015/01/11/blogging-like-a-dev-jekyll-github-prose-io.html)
+[^2]:[http://hmfaysal.github.io/Notepad/theme/documentation/](http://hmfaysal.github.io/Notepad/theme/documentation/)
