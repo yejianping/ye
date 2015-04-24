@@ -16,7 +16,7 @@ I am an M.S. candidate in *Computer Science* at the [Department of Computer Scie
 
 At some point in the not-terribly-distant future, I hope to found a self-sustaining collective of clever people, for fun, profit(?), and the promotion of human life in the universe.
 
-Anyways, for now I'm just working to seek a job in North America. My ultra dream is to apply Mathematics to computer to create an unprecedented, profound, aesthetic piece of work, such as an novel algorithm, or an app. Not that I necessarily expect to succeed, but it's something to strive for, and it's a fun problem to work on.
+Anyways, for now I'm just working to seek a job in North America. My ultra dream is to apply Mathematics to computer to create an unprecedented, profound, aesthetic piece of work, such as a novel algorithm, or an app. Not that I necessarily expect to succeed, but it's something to strive for, and it's a fun problem to work on.
 
 
 
