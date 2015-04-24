@@ -32,7 +32,7 @@ I spent almost a whole day figuring out all the details and specifics and finall
 Simply summarising:
 
 1. Clone [Notepad](https://github.com/hmfaysal/Notepad) to your own repo. Then **Switch to gh-pages branch!**
-1. Open _config.yml. Add **url: http://user_name.github.io/project_name** in it.
+1. Open _config.yml. Add **url: http://user_name.github.io/project_name** in it. Here user_name is your GitHub user name, project_name is your repo.
 1. Type http://user_name.github.io/project_name in your brower. OK.
 
 **Be aware: if you want to run your website locally, don't add url or assign url an empty string!**
