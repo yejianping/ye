@@ -131,6 +131,7 @@ Sometimes a link isn't enough, you want to quote someone on what they've said. I
 Got a streak of geek? We've got you covered there, too. You can write inline `<code>` blocks really easily with back ticks. Want to show off something more comprehensive? 4 spaces of indentation gets you there.
 
 {% highlight css %}
+
 	/*
 	注释最好用这种方式。尽量不要用//方式，除非代码特别短。不然粘贴到网页上可能会出错。
 
