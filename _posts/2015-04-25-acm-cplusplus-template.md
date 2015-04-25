@@ -2,7 +2,7 @@
 layout: post
 published: true
 title: Code Sample
-imagefeature: icpc_logo_1600x1200.png
+imagefeature: icpc_logo.png
 mathjax: false
 featured: true
 comments: true
