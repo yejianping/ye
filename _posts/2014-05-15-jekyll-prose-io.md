@@ -43,6 +43,7 @@ For each test case output one line containing the minimum number of repairmen th
 
 <h2><font color="blue">Solution</font></h2>
 
+
 {% highlight css %}
 
 	/*
@@ -262,7 +263,7 @@ For each test case output one line containing the minimum number of repairmen th
 				{
 					if(delta[tsk[i].p][tsk[j].p] < INFINITE)
 					{
-						if((tsk[i].t + delta[tsk[i].p][tsk[j].p] + tsk[i].d) <= tsk[j].t)
+						if((tsk[i].t+delta[tsk[i].p][tsk[j].p]+tsk[i].d)<=tsk[j].t)
 							graph[i][j] = 1;
 					}
 				}
