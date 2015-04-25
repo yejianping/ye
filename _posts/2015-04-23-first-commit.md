@@ -1,9 +1,9 @@
 ---
 layout: post
-title: First Commit
+title: Blog Setup
 description: "Its ON, baby"
 headline: "Let's Fire up the Engines"
-categories: personal
+categories: [blog]
 tags: [blog, Jekyll]
 imagefeature: "website-speed.jpg"
 imagecredit: spreadeffect.com

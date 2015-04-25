@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Theme Elements"
+title: Theme Elements
 description: Theme Elements will save you tons of time working on the site content. Now you'll be able to create complex layouts within minutes.
-category: Theme-Setup
+category: [blog]
 headline: Discover the theme elements
 tags: Jekyll
 imagefeature: picture-38.jpg

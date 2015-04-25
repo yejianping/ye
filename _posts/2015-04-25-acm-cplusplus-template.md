@@ -7,8 +7,7 @@ mathjax: false
 featured: true
 comments: true
 headline: Making blogging easier for masses
-categories: 
-  - ACM/ICPC
+categories: ACM/ICPC
 tags: [ACM/ICPC, POJ]
 ---
 [POJ 3216](http://poj.org/problem?id=3216)
