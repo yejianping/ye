@@ -2,6 +2,7 @@
 layout: post
 published: true
 title: Code Sample
+imagefeature: ACM-Logo.jpg
 mathjax: false
 featured: true
 comments: true
