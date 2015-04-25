@@ -4,7 +4,7 @@ title: "Theme Elements"
 description: Theme Elements will save you tons of time working on the site content. Now you'll be able to create complex layouts within minutes.
 category: Theme-Setup
 headline: Discover the theme elements
-tags: [Jekyll, HMFAYSAL OMEGA]
+tags: Jekyll
 imagefeature: picture-38.jpg
 comments: true
 mathjax: true
