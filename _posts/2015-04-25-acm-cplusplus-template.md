@@ -2,7 +2,7 @@
 layout: post
 published: true
 title: Code Sample
-imagefeature: ACM-Logo.jpg
+imagefeature: icpc_logo_1600x1200.png
 mathjax: false
 featured: true
 comments: true
