@@ -12,10 +12,10 @@ tags: ACM/ICPC
 ---
 [POJ 3216](http://poj.org/problem?id=3216)
 
-Repairing Company
-Time Limit: 1000MS		Memory Limit: 131072K
-Total Submissions: 6526		Accepted: 1758
-Description
+<center>###<font color="blue">Repairing Company</font></center>
+**Time Limit**: 1000MS		**Memory Limit**: 131072K
+**Total Submissions**: 6526		**Accepted**: 1758
+###<font color="blue">Description</font>
 
 Lily runs a repairing company that services the Q blocks in the city. One day the company receives M repair tasks, the ith of which occurs in block pi, has a deadline ti on any repairman’s arrival, which is also its starting time, and takes a single repairman di time to finish. Repairmen work alone on all tasks and must finish one task before moving on to another. With a map of the city in hand, Lily want to know the minimum number of repairmen that have to be assign to this day’s tasks.
 

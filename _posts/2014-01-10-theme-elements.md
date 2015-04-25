@@ -131,24 +131,24 @@ Sometimes a link isn't enough, you want to quote someone on what they've said. I
 Got a streak of geek? We've got you covered there, too. You can write inline `<code>` blocks really easily with back ticks. Want to show off something more comprehensive? 4 spaces of indentation gets you there.
 
 {% highlight css %}
-/*
-注释最好用这种方式。尽量不要用//方式，除非代码特别短。不然粘贴到网页上可能会出错。
+	/*
+	注释最好用这种方式。尽量不要用//方式，除非代码特别短。不然粘贴到网页上可能会出错。
 
-代码最后的注释不要删。理由见最后的注释。
-*/
-#include <set>
-#include <map>
-#include <list>
-#include <cmath>
-#include <queue>
-#include <stack>
-#include <string>
-#include <vector>
-#include <cstdio>
-#include <cstring>
-#include <iostream>
-#include <algorithm>
-//#define ONLINE_JUDGE
+	代码最后的注释不要删。理由见最后的注释。
+	*/
+	#include <set>
+	#include <map>
+	#include <list>
+	#include <cmath>
+	#include <queue>
+	#include <stack>
+	#include <string>
+	#include <vector>
+	#include <cstdio>
+	#include <cstring>
+	#include <iostream>
+	#include <algorithm>
+	//#define ONLINE_JUDGE
 {% endhighlight %}
 
 Learn more about syntax highlighting [in this post]({{ site.url }}/articles/code-highlighting-post/).
