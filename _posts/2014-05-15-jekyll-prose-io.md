@@ -12,8 +12,8 @@ tags: ACM/ICPC
 ---
 [POJ 3216](http://poj.org/problem?id=3216)
 
-<center><font color="blue">###Repairing Company</font></center>
-<center>**Time Limit**: 1000MS		**Memory Limit**: 131072K</center>
+<center><h1><font color="blue">Repairing Company</font></h1></center>
+<center><strong>Time Limit</strong>: 1000MS		<strong>Memory Limit</strong>: 131072K</center>
 
 <center>**Total Submissions**: 6526		**Accepted**: 1758</center>
 
