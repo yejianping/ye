@@ -2,7 +2,7 @@
 layout: post
 published: true
 title: Code Sample
-imagefeature: 01.png
+imagefeature: 01.jpg
 mathjax: false
 featured: true
 comments: true
