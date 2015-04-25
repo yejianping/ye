@@ -36,6 +36,7 @@ For each test case output one line containing the minimum number of repairmen th
 1 1 10
 1 5 10
 0 0
+
 <font color="blue">###Sample Output</font>
 
 2
