@@ -7,14 +7,13 @@ featured: true
 comments: true
 headline: Making blogging easier for masses
 categories: 
-  - webdevelopment
-tags: ACM/ICPC
+  - ACM/ICPC
+tags: [ACM/ICPC, POJ]
 ---
 [POJ 3216](http://poj.org/problem?id=3216)
 
 <center><h1><font color="blue">Repairing Company</font></h1></center>
 <center><strong>Time Limit</strong>: 1000MS		&nbsp;&nbsp;&nbsp;&nbsp; <strong>Memory Limit</strong>: 131072K    &nbsp;&nbsp;&nbsp;&nbsp;   <strong>Total Submissions</strong>: 6526		&nbsp;&nbsp;&nbsp;&nbsp; <strong>Accepted</strong>: 1758</center>
-
 
 
 <h2><font color="blue">Description</font></h2>
