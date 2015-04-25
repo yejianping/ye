@@ -4,7 +4,7 @@ title: First Commit
 description: "Its ON, baby"
 headline: "Let's Fire up the Engines"
 categories: personal
-tags: blogging, jekyll
+tags: blogging, Jekyll
 imagefeature: "website-speed.jpg"
 imagecredit: spreadeffect.com
 imagecreditlink: "http://www.spreadeffect.com/blog/improve-website-speed/"
