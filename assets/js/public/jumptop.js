@@ -12,4 +12,4 @@ BackTop=function(btnId){
 	};
 	function set(){btn.style.display=d.scrollTop?'block':"none"}
 };
-BackTop('gotop');
+BackTop('jumptop');
