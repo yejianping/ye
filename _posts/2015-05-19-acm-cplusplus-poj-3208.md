@@ -2,6 +2,7 @@
 layout: post
 published: true
 title: POJ 3208
+imagefeature: 01.jpg
 mathjax: false
 featured: true
 comments: true
