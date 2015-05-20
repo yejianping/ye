@@ -36,15 +36,21 @@ For each test case, your program should output the nth beastly number.
 <h2><font color="blue">Sample Input</font></h2>
 
 3
+
 2
+
 3
+
 187
 
 <h2><font color="blue">Sample Output</font></h2>
 
 1666
+
 2666
+
 66666
+
 
 <h2><font color="blue">Solution</font></h2>
 
