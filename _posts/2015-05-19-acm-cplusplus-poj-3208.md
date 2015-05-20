@@ -119,7 +119,7 @@ For each test case, your program should output the nth beastly number.
 
 	int main()
 	{
-	#ifndef ONLINE_JUDGE
+		#ifndef ONLINE_JUDGE
 		/*
 		This part deals with the input and output file suffix. By default, 
 		the input file is ye.in and output is ye.out.
@@ -138,7 +138,7 @@ For each test case, your program should output the nth beastly number.
 
 		freopen(in,"r",stdin);
 		freopen(out,"w",stdout);
-	#endif
+		#endif
 
 		// TO DO
 		/*
