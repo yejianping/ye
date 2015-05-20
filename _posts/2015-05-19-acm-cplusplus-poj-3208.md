@@ -2,7 +2,6 @@
 layout: post
 published: true
 title: POJ 3208
-imagefeature: 01.jpg
 mathjax: false
 featured: true
 comments: true
@@ -10,7 +9,8 @@ headline: Jianping Ye's personal blog
 categories: ACM/ICPC
 tags: [ACM/ICPC, POJ]
 ---
-[POJ 3208](http://poj.org/problem?id=3208) It's claimed to be the most difficult digital dynamic programming problem in POJ.
+[POJ 3208](http://poj.org/problem?id=3208) 
+It's claimed to be the most difficult digital dynamic programming problem in POJ.
 
 <center><h1><font color="blue">Apocalypse Someday</font></h1></center>
 <center><strong>Time Limit</strong>: 1000MS		&nbsp;&nbsp;&nbsp;&nbsp; <strong>Memory Limit</strong>: 131072K    &nbsp;&nbsp;&nbsp;&nbsp;   <strong>Total Submissions</strong>: 1575		&nbsp;&nbsp;&nbsp;&nbsp; <strong>Accepted</strong>: 136</center>
@@ -48,7 +48,7 @@ For each test case, your program should output the nth beastly number.
 <h2><font color="blue">Solution</font></h2>
 
 
-{% highlight css %}
+
 
 	/*
 	Better to use this kind of comment. Do not use //.
@@ -114,7 +114,8 @@ For each test case, your program should output the nth beastly number.
 	{
 	#ifndef ONLINE_JUDGE
 		/*
-		This part deals with the input and output file suffix. By default, the input file is ye.in and output is ye.out.
+		This part deals with the input and output file suffix. By default, 
+		the input file is ye.in and output is ye.out.
 
 		Array num is the last few characters of the file.
 		ye.in1, ye.in2, ye.in3 ...
@@ -142,7 +143,8 @@ For each test case, your program should output the nth beastly number.
 		*/
 
 		/*
-		tranfer[i][j] means: If the current number is in state i, we append digit j to the number, what's the state of the new number? 
+		tranfer[i][j] means: If the current number is in state i, we append digit j to the number, 
+		what's the state of the new number? 
 		*/
 		int transfer[4][DIGITS] =
 		{
@@ -154,9 +156,12 @@ For each test case, your program should output the nth beastly number.
 
 		/*
 		If the number has k digits, we divide the k digits into two parts: the last i digits and the former (k-i) digits.
-		dp[i][j]: When the number comprising of the former digits(k-i) is in state j, how many beastly numbers can we create using the last i digits?
-		For example, i == 2, and the former digits give a number, such as 126 (so this number is in state 1, right?), how many beastly numbers can
-		we create using i digits? The answer is 1: 12666. Because a beastly number must have "666" in it.
+		dp[i][j]: When the number comprising of the former digits(k-i) is in state j, 
+		how many beastly numbers can we create using the last i digits?
+		
+		For example, i == 2, and the former digits give a number, such as 126 (so this number is in state 1, right?), 
+		how many beastly numbers can we create using i digits? The answer is 1: 12666. 
+		Because a beastly number must have "666" in it.
 
 		The reduction formula is:
 
@@ -248,4 +253,3 @@ For each test case, your program should output the nth beastly number.
 		Leave a few blank lines at the end. Some OJ demands this.
 	*/
 	
-{% endhighlight %}
