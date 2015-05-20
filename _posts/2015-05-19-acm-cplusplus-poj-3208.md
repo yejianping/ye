@@ -10,6 +10,7 @@ categories: ACM/ICPC
 tags: [ACM/ICPC, POJ]
 ---
 [POJ 3208](http://poj.org/problem?id=3208) 
+
 It's claimed to be the most difficult digital dynamic programming problem in POJ.
 
 <center><h1><font color="blue">Apocalypse Someday</font></h1></center>
@@ -155,13 +156,14 @@ For each test case, your program should output the nth beastly number.
 		};
 
 		/*
-		If the number has k digits, we divide the k digits into two parts: the last i digits and the former (k-i) digits.
+		If the number has k digits, we divide the k digits into two parts: the last i digits and the former 
+		(k-i) digits.
 		dp[i][j]: When the number comprising of the former digits(k-i) is in state j, 
 		how many beastly numbers can we create using the last i digits?
 		
-		For example, i == 2, and the former digits give a number, such as 126 (so this number is in state 1, right?), 
-		how many beastly numbers can we create using i digits? The answer is 1: 12666. 
-		Because a beastly number must have "666" in it.
+		For example, i == 2, and the former digits give a number, such as 126 
+		(so this number is in state 1, right?), how many beastly numbers can we create using i digits? 
+		The answer is 1: 12666. Because a beastly number must have "666" in it.
 
 		The reduction formula is:
 
