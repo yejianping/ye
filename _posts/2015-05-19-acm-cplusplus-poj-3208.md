@@ -120,24 +120,24 @@ For each test case, your program should output the nth beastly number.
 	int main()
 	{
 		#ifndef ONLINE_JUDGE
-		/*
-		This part deals with the input and output file suffix. By default, 
-		the input file is ye.in and output is ye.out.
+			/*
+			This part deals with the input and output file suffix. By default, 
+			the input file is ye.in and output is ye.out.
 
-		Array num is the last few characters of the file.
-		ye.in1, ye.in2, ye.in3 ...
-		ye.out1, ye.out2, ye.out3 ...
-		*/
-		char num[3] = "";
+			Array num is the last few characters of the file.
+			ye.in1, ye.in2, ye.in3 ...
+			ye.out1, ye.out2, ye.out3 ...
+			*/
+			char num[3] = "";
 
-		char in[20] = "test data/ye.in";
-		char out[20] = "test data/ye.out";
+			char in[20] = "test data/ye.in";
+			char out[20] = "test data/ye.out";
 
-		for(int i=0;i<strlen(num);i++) in[strlen(in) + i] = num[i];
-		for(int i=0;i<strlen(num);i++) out[strlen(out) + i] = num[i];
+			for(int i=0;i<strlen(num);i++) in[strlen(in) + i] = num[i];
+			for(int i=0;i<strlen(num);i++) out[strlen(out) + i] = num[i];
 
-		freopen(in,"r",stdin);
-		freopen(out,"w",stdout);
+			freopen(in,"r",stdin);
+			freopen(out,"w",stdout);
 		#endif
 
 		// TO DO
