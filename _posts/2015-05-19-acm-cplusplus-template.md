@@ -14,7 +14,7 @@ tags: [ACM/ICPC, POJ]
 It's claimed to be the most difficult digital dynamic programming problem in POJ.
 
 <center><h1><font color="blue">Apocalypse Someday</font></h1></center>
-<center><strong>Time Limit</strong>: 1000MS		&nbsp;&nbsp;&nbsp;&nbsp; <strong>Memory Limit</strong>: 131072K    &nbsp;&nbsp;&nbsp;&nbsp;   <strong>Total Submissions</strong>: 1575		&nbsp;&nbsp;&nbsp;&nbsp; <strong>Accepted</strong>: 136</center>
+<center><strong>Time Limit</strong>: 1000MS		&nbsp;&nbsp;&nbsp;&nbsp; <strong>Memory Limit</strong>: 131072K    &nbsp;&nbsp;&nbsp;&nbsp;   <strong>Total Submissions</strong>: 1575		&nbsp;&nbsp;&nbsp;&nbsp; <strong>Accepted</strong>: 736</center>
 
 
 <h2><font color="blue">Description</font></h2>
