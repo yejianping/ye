@@ -1,7 +1,7 @@
 ---
 layout: post
 published: true
-title: Code Sample
+title: POJ 3216
 imagefeature: 01.jpg
 mathjax: false
 featured: true

@@ -1,7 +1,7 @@
 ---
 layout: post
 published: true
-title: POJ 3208
+title: Code example(POJ 3208)
 mathjax: false
 featured: true
 comments: true
