@@ -248,10 +248,10 @@ For each test case, your program should output the nth beastly number.
 			printf("%lld\n",result);
 		}
 
-	#ifndef ONLINE_JUDGE
-		getchar();
-		getchar();
-	#endif
+		#ifndef ONLINE_JUDGE
+			getchar();
+			getchar();
+		#endif
 
 		return 0;
 	}
