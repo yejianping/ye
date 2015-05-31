@@ -25,9 +25,12 @@ Consider from the most significant digit to the least significant.
 
 3:
 
-- 0xxx   how many 1s in this case? (we need to calcualte how many 1s in no more than 3 digits number. Named as dp[3][1]. They are: 1,10,11,12...19,21,31...91,100, 101,102,...)
-- 1xxx   how many 1s? dp[3][1]? Right? The answer is no. Because the 1 in the most significant emerges 10 * 10 * 10 times. We need to add this.
-- 2xxx   how many 1s? (dp[3][1])
+- 0xxx
+	- how many 1s in this case? (we need to calcualte how many 1s in no more than 3 digits number. Named as dp[3][1]. They are: 1,10,11,12...19,21,31...91,100, 101,102,...)
+- 1xxx
+	- how many 1s? dp[3][1]? Right? The answer is no. Because the 1 in the most significant emerges 10 * 10 * 10 times. We need to add this.
+- 2xxx
+	- how many 1s? (dp[3][1])
 
 4:
 
