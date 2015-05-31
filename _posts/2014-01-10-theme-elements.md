@@ -5,7 +5,6 @@ description: Theme Elements will save you tons of time working on the site conte
 category: [blog]
 headline: Discover the theme elements
 tags: Jekyll
-imagefeature: picture-38.jpg
 comments: true
 mathjax: true
 ---
