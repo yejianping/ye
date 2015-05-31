@@ -24,17 +24,20 @@ My solution is:
 Consider from the most significant digit to the least significant.
 
 3:
+
 - 0xxx   how many 1s in this case? (we need to calcualte how many 1s in no more than 3 digits number. Named as dp[3][1]. They are: 1,10,11,12...19,21,31...91,100, 101,102,...)
 - 1xxx   how many 1s? dp[3][1]? Right? The answer is no. Because the 1 in the most significant emerges 10 * 10 * 10 times. We need to add this.
 - 2xxx   how many 1s? (dp[3][1])
 
 4:
+
 - 30xx   how many 1s in this case? (we need to calcualte how many 1s in no more than 2 digits number. Named as dp[2][1]. They are: 1,10,11,12...19,21,31...91.)
 - 31xx   how many 1s? dp[2][1]? Right? Of couse the answer is no. Because the 1 in the second-most significant emerges 10 * 10 times. We need to add this.
 - 32xx   how many 1s? (dp[2][1])
 - 33xx   how many 1s? (dp[2][1])
 
 5:
+
 - 340x   how many 1s in this case? (we need to calcualte how many 1s in 1-digit number. Named as dp[1][1]. Obviously, there is only one: 1)
 - 341x   how many 1s? dp[1][1]? The answer is no. Because the 1 in the third-most significant emerges 10 times. We need to add this.
 - 342x   how many 1s? (dp[1][1])
@@ -42,6 +45,7 @@ Consider from the most significant digit to the least significant.
 - 344x   how many 1s? (dp[1][1])
 
 6:
+
 - 3450   how many 1s in this case? 0.
 - 3451   how many 1s in this case? 1.
 - 3452   how many 1s in this case? 0.
