@@ -71,6 +71,8 @@ Consider from the most significant digit to the least significant.
 - 3455
 	- how many 1s in this case? 0.
 
+<h2><font color="blue">Solution</font></h2>
+
 {% highlight css %}
 
 /*
