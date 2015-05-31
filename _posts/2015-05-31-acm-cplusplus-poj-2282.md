@@ -23,7 +23,7 @@ Take 3456 as as example. And I want to count 1s from 0 to 3456.
 My solution is:
 Consider from the most significant digit to the least significant.
 
-3:
+<strong>3:</strong>
 
 - 0xxx
 	- how many 1s in this case? (we need to calcualte how many 1s in no more than 3 digits number. Named as dp[3][1]. They are: 1,10,11,12...19,21,31...91,100, 101,102,...)
@@ -31,8 +31,8 @@ Consider from the most significant digit to the least significant.
 	- how many 1s? dp[3][1]? Right? The answer is no. Because the 1 in the most significant emerges 10 * 10 * 10 times. We need to add this.
 - 2xxx
 	- how many 1s? (dp[3][1])
-
-4:
+	
+<strong>4:</strong>
 
 - 30xx
 	- how many 1s in this case? (we need to calcualte how many 1s in no more than 2 digits number. Named as dp[2][1]. They are: 1,10,11,12...19,21,31...91.)
@@ -43,7 +43,7 @@ Consider from the most significant digit to the least significant.
 - 33xx
 	- how many 1s? (dp[2][1])
 
-5:
+<strong>5:</strong>
 
 - 340x
 	- how many 1s in this case? (we need to calcualte how many 1s in 1-digit number. Named as dp[1][1]. Obviously, there is only one: 1)
@@ -56,7 +56,7 @@ Consider from the most significant digit to the least significant.
 - 344x
 	- how many 1s? (dp[1][1])
 
-6:
+<strong>6:</strong>
 
 - 3450
 	- how many 1s in this case? 0.
