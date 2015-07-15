@@ -14,7 +14,7 @@ tags: [ACM/ICPC, POJ]
 
 Considering the sample: 7 6 7 2 1 4 2
 
-leading zeros       000       000
+0--->000----------->000------>000(leading zeros)
 
 7--->111----------->111------>111
 
