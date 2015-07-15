@@ -17,12 +17,19 @@ Considering the sample: 7 6 7 2 1 4 2
 leading zeros       000       000
 
 7--->111----------->111------>111
+
 6--->110----------->221------>110(*)
+
 7--->111----------->332------>110
+
 2--->010----------->342------>120
+
 1--->001----------->343------>010
+
 4--->100----------->443------>110(*)
+
 2--->010----------->453------>120
+
 
 Intuitively, I begin by calculating the accumulating number of features from the beginning to the end. Then, for each result, I substract any feature from other features and get the last column.
 At last, I will find all the rows with the same figure and the distance of the farthest pair of such figures(Starred) is the result.
@@ -45,7 +52,7 @@ f[y][k] -  f[y][k] = f[x][k] -  f[x][k]
 
 In the above example, we substract the last feature(from left to right) from all the other features.
 
-The next problem is how to find the same pair of numbers. Of course we can't use brute-force method. It's time complexity is O(n*n). 
+The next problem is how to find the same pair of numbers. Of course we can't use brute-force method. Its time complexity is O(n*n). 
 We may use hash table. Of course, we can use the STL in C++. But you need to find a way to the denote the numbers in the last column. Notice that, there are maybe negative numbers.
 Here, I implement a very simple HASH table. It's much more efficient, of course, compared to the STL hash table.
 
@@ -169,7 +176,8 @@ int main()
 	#ifndef ONLINE_JUDGE
 	
 		/*
-		This part deals with the input and output file suffix. By default, the input file is ye.in and output is ye.out.
+		This part deals with the input and output file suffix. 
+		By default, the input file is ye.in and output is ye.out.
 
 		Array num is the last few characters of the file.
 		ye.in1, ye.in2, ye.in3 ...
@@ -261,7 +269,8 @@ int main()
 			if(same(i,e))
 			{
 			/*
-			Once we find the first same figure, it's enough to terminate this search because it's already the farthest figure.
+			Once we find the first same figure, it's enough to 
+			terminate this search because it's already the farthest figure.
 			*/	
 				result = max(result,i-e);
 				break;
